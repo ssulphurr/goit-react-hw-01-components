@@ -7,10 +7,6 @@
     padding: 8px 12px;
 }
 
-.transaction_history tr{
-    width: 100%;
-}
-
 .transaction_history th{
     background-color: #87CBB9;
 }

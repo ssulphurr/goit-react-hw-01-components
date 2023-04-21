@@ -34,8 +34,6 @@ export const Profile = ({username, tag, location, avatar, followers, views, like
 };
 
 
-// дописать типы -----------------------------
-
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string,
