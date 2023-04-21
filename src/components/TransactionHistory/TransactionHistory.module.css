@@ -1,6 +1,7 @@
 .transaction_history{
     width: 70%;
     font-size: 18px;
+    color: #569DAA;
 }
 
 .transaction_history th, .transaction_history td {
@@ -9,6 +10,7 @@
 
 .transaction_history th{
     background-color: #87CBB9;
+    color: #577D86;
 }
 
 .transaction_history tr:nth-child(even){
