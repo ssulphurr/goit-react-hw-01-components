@@ -30,6 +30,5 @@ TransactionsHistory.propTypes = {
         id: PropTypes.string.isRequired,
         type: PropTypes.string,
         amount: PropTypes.string,
-        amount: PropTypes.string
     })),
 }
