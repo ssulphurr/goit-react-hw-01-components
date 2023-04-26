@@ -8,13 +8,12 @@ import { FriendList } from './FriendList/FriendList';
 import friends from '../data/friends.json';
 
 import { TransactionsHistory } from './TransactionHistory/TransactionHistory';
-import transactions from '../data/transactions.json'
+import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
     <div
       style={{
-        // height: '100vh',
         height: '100%',
         padding: '24px 0',
 
@@ -28,7 +27,6 @@ export const App = () => {
         gap: 16,
       }}
     >
-      
       <Profile
         username={user.username}
         tag={user.tag}
@@ -36,14 +34,15 @@ export const App = () => {
         avatar={user.avatar}
         followers={user.stats.followers}
         views={user.stats.views}
-        likes={user.stats.likes} />
-      
+        likes={user.stats.likes}
+      />
+
       <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data}/>
-      
+      <Statistics stats={data} />
+
       <FriendList friends={friends} />
-      
-      <TransactionsHistory items={transactions}/>
+
+      <TransactionsHistory items={transactions} />
     </div>
   );
 };
